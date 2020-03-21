@@ -324,7 +324,7 @@ class MapScanner extends TileBehavior
 		}
 
 //FIXME- should be 'else if'
-		if (city.needChurch > 0)
+		else if (city.needChurch > 0)
 		{
 			zonePlop(CHURCH);
 			city.needChurch = 0;
